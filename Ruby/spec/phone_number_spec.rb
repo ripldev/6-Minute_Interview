@@ -28,7 +28,7 @@ RSpec.describe PhoneNumber do
     expect('+598.123.456.7x858').to eq(ph.get_value_as_international())
   end
 
-  it 'test_3' do
+  it 'test_4' do
     ph = PhoneNumber.new('+27 1234 5678 ext 4')
 
     expect('+27 1234 5678 ext 4').to eq(ph.get_original_text())
@@ -37,7 +37,7 @@ RSpec.describe PhoneNumber do
     expect('+27 1234 5678 ext 4').to eq(ph.get_value_as_international())
   end
 
-  it 'test_4' do
+  it 'test_5' do
     ph = PhoneNumber.new('858-775-2868')
 
     expect('858-775-2868').to eq(ph.get_original_text())
