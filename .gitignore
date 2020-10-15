@@ -2,3 +2,6 @@ TypeScript/node_modules
 Python/.idea
 Ruby/.idea
 TypeScript/.idea
+JavaScript/.idea
+JavaScript/node_modules
+package-lock.json
